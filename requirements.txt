@@ -1,0 +1,7 @@
+# Windows live-capture prerequisite (not installable with pip):
+# Install Npcap from https://npcap.com/#download and enable WinPcap API-compatible Mode.
+scapy
+pandas
+scikit-learn
+requests
+streamlit
