@@ -1,6 +1,6 @@
-# NetGuard IDS
+# packet-sniffer-ids (NetGuard IDS)
 
-NetGuard IDS is a modular Python network-monitoring and intrusion-detection demo. It captures live traffic with Scapy or replays PCAP files, analyzes packets on a separate consumer thread, records traffic metrics and alerts in SQLite, and presents a local Streamlit dashboard.
+NetGuard IDS is a modular, multi-threaded Python packet sniffer and intrusion-detection demo featuring real-time rule-based detections, Isolation Forest ML anomaly detection, target IP/MAC tracking, and a live Streamlit SOC dashboard. It captures live traffic with Scapy or replays PCAP files, analyzes packets on a separate consumer thread, records traffic metrics and alerts in SQLite, and presents a local dashboard.
 
 The project is intended for defensive monitoring and offline testing. The included test-traffic generator writes packets to a PCAP file only; it does not transmit packets.
 
